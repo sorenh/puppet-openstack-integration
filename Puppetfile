@@ -86,7 +86,7 @@ mod 'octavia',
   :ref => 'master'
 
 mod 'openstack_integration',
-  :git => 'https://git.openstack.org/openstack/puppet-openstack-integration',
+  :git => 'https://github.com/sorenh/puppet-openstack-integration',
   :ref => 'master'
 
 mod 'openstack_extras',
