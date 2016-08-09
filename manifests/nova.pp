@@ -107,7 +107,7 @@ class openstack_integration::nova (
     barbican_endpoint           => $barbican_endpoint,
   }
   class { '::nova::compute::libvirt':
-    libvirt_virt_type     => 'qemu',
+    libvirt_virt_type     => 'kvm',
     migration_support     => true,
     vncserver_listen      => '0.0.0.0',
     # TODO: enable it again when puppet 4.5 will be idempotent
