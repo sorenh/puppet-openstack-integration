@@ -40,7 +40,7 @@ fi
 
 # Prepare puppet-openstack-integration repository
 rm -rf /tmp/puppet-openstack-integration
-git clone git://git.openstack.org/openstack/puppet-openstack-integration /tmp/puppet-openstack-integration
+git clone -b rabbitmq-master https://github.com/sorenh/puppet-openstack-integration /tmp/puppet-openstack-integration
 cd /tmp/puppet-openstack-integration
 
 export SCENARIO=scenario-aio
